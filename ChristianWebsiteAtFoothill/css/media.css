@@ -4,13 +4,42 @@
     letter-spacing: 2px;
 }
 
-.wrapper .section1 ul{
-    border: 1px solid;
+.wrapper h4{
+    color: #4C4D4D;
+    text-align: center; 
+    letter-spacing: 1.5px;
+}
+
+.wrapper ul{   
     list-style: none; 
-    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+.wrapper li{
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 2%;
+    flex: 1 0 31%;
+    margin: 0.5%;
 } 
 
-.wrapper .section1 iframe{
-    border:0;
-    margin: auto;
+.wrapper iframe{
+    display:flex;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.wrapper .section1 p{
+    color: #4C4D4D;
+}
+
+.wrapper .section1 a{
+    text-decoration: none;
+}
+.wrapper .section2 p{
+    text-align: center; 
+    color: #4C4D4D;
 }

@@ -26,22 +26,14 @@
     text-align: center;
 }
 
-.wrapper .Content .mission .threeitems h2{
-    font-style: normal;
-    color: #4C4D4D;
-}
-
-.wrapper .Content .mission .threeitems p{
-    font-style: normal;
-    letter-spacing: 2px;
-    color: #4C4D4D;
-}
-
+.wrapper .Content .mission .threeitems h2,
 .wrapper .Content .Faith .egightitem h2{
     font-style: normal;
     color: #4C4D4D;
+    overflow: hidden;
 }
 
+.wrapper .Content .mission .threeitems p
 .wrapper .Content .Faith .egightitem p{
     font-style: normal;
     letter-spacing: 2px;

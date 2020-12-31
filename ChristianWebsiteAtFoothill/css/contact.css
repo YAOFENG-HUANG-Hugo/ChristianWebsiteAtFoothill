@@ -1,13 +1,29 @@
-.wrapper .inputbox{
+.wrapper h2{
+    color: DeepSkyBlue;
+    text-align: center; 
+    letter-spacing: 2px;
+}
+
+.wrapper .welcome p{
     color: #4C4D4D;
     margin-left: 10%;
+    margin-right: 10%;
+    font: 1.2em sans-serif;
+    line-height: 150%;
+    text-align: center;
+}
+
+
+.wrapper .inputbox{
+    color: #4C4D4D;
     line-height: 25px;
+    margin-left: 10%;
     margin-bottom: 20px;
     letter-spacing: 2px;
 }
 
 .wrapper .inputbox .txt{
-    width: 80%;
+    width: 90%;
     height: 30px;
     border-radius: 5px;
     border: 1px solid #ccc;
@@ -16,7 +32,7 @@
 .wrapper .inputbox .note{
     border-radius: 5px;
     border: 1px solid #ccc;
-    width: 80%;
+    width: 90%;
     height: 360px;
 }
 
@@ -24,7 +40,6 @@ input,textarea{
     resize: vertical;
     box-sizing: border-box;
     font-size: 1.1em;
-    color: rgb(71, 71, 71);
     letter-spacing: 2px;
     font-family: Arial;
     padding: 10px;
