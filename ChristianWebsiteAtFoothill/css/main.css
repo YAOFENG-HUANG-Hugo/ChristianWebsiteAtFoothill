@@ -1,0 +1,49 @@
+.wrapper .Content .intro{
+    padding: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    letter-spacing: 3px;
+    color: #4C4D4D;
+}
+
+.wrapper .Content ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 50px;
+    padding-right: 50px;
+    list-style: none;
+}
+
+.wrapper .Content li{
+    box-sizing: border-box;
+    margin: 0px 0px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    flex: 1 0 31%;
+    margin: 5px;
+    text-align: center;
+}
+
+.wrapper .Content .mission .threeitems h2{
+    font-style: normal;
+    color: #4C4D4D;
+}
+
+.wrapper .Content .mission .threeitems p{
+    font-style: normal;
+    letter-spacing: 2px;
+    color: #4C4D4D;
+}
+
+.wrapper .Content .Faith .egightitem h2{
+    font-style: normal;
+    color: #4C4D4D;
+}
+
+.wrapper .Content .Faith .egightitem p{
+    font-style: normal;
+    letter-spacing: 2px;
+    color: #4C4D4D;
+}

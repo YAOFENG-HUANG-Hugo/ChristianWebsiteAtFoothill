@@ -1,0 +1,16 @@
+.wrapper h2{
+    color: DeepSkyBlue; 
+    text-align: center; 
+    letter-spacing: 2px;
+}
+
+.wrapper .section1 ul{
+    border: 1px solid;
+    list-style: none; 
+    margin: auto;
+} 
+
+.wrapper .section1 iframe{
+    border:0;
+    margin: auto;
+}
