@@ -1,19 +1,31 @@
 .wrapper h2{
     color: DeepSkyBlue;
     text-align: center; 
-    letter-spacing: 2px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
 }
 
 .wrapper .welcome p{
     color: #4C4D4D;
-    margin-left: 10%;
-    margin-right: 10%;
-    font: 1.2em sans-serif;
-    line-height: 150%;
+    width: 60%;
+    line-height: 175%;
     text-align: center;
+    letter-spacing: 1.5px;
+    margin: 0 auto;
 }
 
+.wrapper .welcome a{
+    text-decoration: none; 
+    color: #4C4D4D;
+}
 
+.wrapper .welcome a:hover{
+    color: deepskyblue;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/*
 .wrapper .inputbox{
     color: #4C4D4D;
     line-height: 25px;
@@ -53,3 +65,4 @@ input,textarea{
     font-size: 1em;
     padding: 5px;
 }
+*/

@@ -1,0 +1,90 @@
+.wrapper .centent{
+    width: fit-content;
+}
+
+.wrapper a img{
+    box-shadow: 10px 10px 10px lightskyblue;
+}
+
+.wrapper a img:hover{
+    box-shadow: 10px 10px 10px deepskyblue;
+    cursor: pointer;
+}
+
+.wrapper .centent .about{
+    overflow: auto;
+    margin-top: 50px;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+.wrapper .centent .about .left{
+    width:35%;
+}
+
+.wrapper .centent .about .left img{
+    float: left;
+    max-width: 100%;
+    border-radius: 30px;
+}
+
+.wrapper .centent .about .right{
+    float: left;
+    width: 60%;
+    padding-left: 5%;
+    color: #4C4D4D;
+    line-height: 175%;
+    letter-spacing: 1.5px;
+    padding-top: 74px;
+}
+
+
+.wrapper .centent p{
+    text-align: center;
+    letter-spacing: 1.5px;
+    color: #4C4D4D;
+    margin-left: 12%;
+    margin-right: 12%;
+    line-height: 175%;
+}
+
+
+.wrapper .centent .whatwedo ul{   
+    list-style: none; 
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+.wrapper .centent .whatwedo li{
+    border: 2px solid #ccc;
+    border-radius: 30px;
+    padding: 2%;
+    flex: 1 0 31%;
+    margin: 0.5%;
+} 
+
+.wrapper .centent .whatwedo a{
+    color: DeepSkyBlue;
+    text-decoration: none;
+}
+
+.wrapper .centent .whatwedo a:hover{
+    color: lightskyblue;
+    cursor: pointer;
+    letter-spacing: 3px;
+}
+
+.wrapper .centent .whatwedo img{
+    border-radius: 30px;
+    max-width: 100%;
+    display:flex;
+    margin: 0 auto;
+}
+.wrapper .centent .whatwedo h4{
+    letter-spacing: 2px; 
+    text-align: center;
+    color: DeepSkyBlue;
+}

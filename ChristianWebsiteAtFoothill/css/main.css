@@ -1,10 +1,25 @@
-.wrapper .Content .intro{
-    padding: 50px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    letter-spacing: 3px;
-    color: #4C4D4D;
+.wrapper .Content{
+    width: 75%;
+    margin: 30px auto;
 }
+
+.wrapper .Content .intro p{
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+    color: #4C4D4D;
+    line-height: 150%;
+}
+
+.wrapper .Content .intro p a{
+    color: #4C4D4D;
+    text-decoration: none;
+}
+.wrapper .Content .intro p a:hover{
+    color: deepskyblue;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
 
 .wrapper .Content ul{
     display: flex;
@@ -26,8 +41,26 @@
     text-align: center;
 }
 
-.wrapper .Content .mission .threeitems h2,
-.wrapper .Content .Faith .egightitem h2{
+.wrapper .Content .Faith p a{
+    color: #4C4D4D;
+    text-decoration: none;
+}
+
+.wrapper .Content .Faith p a:hover{
+    color: deepskyblue;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.wrapper .Content h2{
+    color:DeepSkyBlue; 
+    text-align:center; 
+    letter-spacing: 3px
+}
+
+.wrapper .Content .mission .threeitems h3,
+.wrapper .Content .Faith .egightitem h3{
     font-style: normal;
     color: #4C4D4D;
     overflow: hidden;
@@ -38,4 +71,15 @@
     font-style: normal;
     letter-spacing: 2px;
     color: #4C4D4D;
+}
+
+.wrapper .Content .Faith .egightitem a{
+    text-decoration:none; 
+    color:#4C4D4D; 
+    font-weight:bold;
+}
+.wrapper .Content .Faith .egightitem a:hover{ 
+    color:deepskyblue;
+    cursor: pointer;
+    font-weight: lighter;
 }
